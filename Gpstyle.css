@@ -1,0 +1,934 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("back1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* ------------------------------------------NAVBAR CODE OF UPPER CASE-------------------------------------- */
+.navbar ul {
+  display: flex;
+  margin-left: 300px;
+  margin-top: -70px;
+}
+
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+#b1 {
+  height: 40px;
+  width: 125px;
+  margin-left: 150px;
+  margin-top: -25px;
+  position: absolute;
+  border: 2px solid rgb(255, 174, 0);
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+#b1:hover {
+  background-color: rgb(255, 174, 0);
+}
+
+h1 {
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 35px;
+  text-decoration: solid;
+  color: white;
+}
+
+a:hover {
+  color: rgb(255, 174, 0);
+  background-color: transparent;
+}
+
+#a1 {
+  color: rgb(255, 174, 0);
+}
+
+select {
+  height: 20px;
+  width: 120px;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+option {
+  color: black;
+}
+
+select:hover {
+  color: rgb(255, 174, 0);
+}
+
+/* ------------------------------------------MIDDLE CONTENT CODE CSS--------------------------------------  */
+.middlecontent {
+  height: 500px;
+  width: 100%;
+}
+
+h2 {
+  align-items: center;
+  text-align: center;
+  font-size: 75px;
+  color: white;
+}
+
+h3 {
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  margin-top: -50px;
+  color: white;
+}
+
+.box1 {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 250px;
+  margin-top: 60px;
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+}
+
+.box1:hover {
+  border-color: rgb(255, 174, 0);
+}
+
+.box2 {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 60px;
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+}
+
+.box2:hover {
+  border-color: rgb(255, 174, 0);
+}
+
+.box3 {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 60px;
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+}
+
+.box3:hover {
+  border-color: rgb(255, 174, 0);
+}
+
+.box4 {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 60px;
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+}
+
+.box4:hover {
+  border-color: rgb(255, 174, 0);
+}
+
+.box5 {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 60px;
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+}
+
+.box5:hover {
+  border-color: rgb(255, 174, 0);
+}
+
+.middlecontent img {
+  height: 80px;
+  width: 80px;
+  margin-left: 30px;
+}
+
+p {
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 2px;
+}
+
+p:hover {
+  color: rgb(255, 174, 0);
+  cursor: pointer;
+}
+
+/*------------------------------------------------------CONTAINER WORKING--------------------------------------------- */
+.container1 {
+  height: 700px;
+  width: 100%;
+  background-color: white;
+}
+
+.text {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+#heading {
+  font-size: 40px;
+  color: black;
+  float: left;
+  margin-left: 10px;
+}
+
+#small {
+  font-size: 20px;
+  color: black;
+}
+
+#smalltext {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  margin-top: -70px;
+}
+
+#smalltext img {
+  height: 30px;
+  width: 30px;
+}
+
+#pic1 {
+  height: 429px;
+  width: 514px;
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 620px;
+  border: 1px solid black;
+}
+
+/*----------------------------------------------- CONTAINER SECOND WORKING CODE------------------------------------------------- */
+.container2 {
+  height: 650px;
+  width: 100%;
+  background-color: white;
+}
+
+.text2 {
+  height: 600px;
+  width: 620px;
+  position: absolute;
+  margin-left: 700px;
+}
+
+#p3 {
+  color: black;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  margin-left: -100px;
+}
+
+#heading2 {
+  color: black;
+  float: left;
+  float: left;
+  margin-top: 5 px;
+}
+
+.text2 img {
+  height: 538px;
+  width: 465px;
+  position: absolute;
+  margin-left: -866px;
+  border: 1px solid black;
+}
+
+/*------------------- OUR SERVICES-------------------------- */
+.container3 {
+  height: 100px;
+  width: 100%;
+  margin-top: -25px;
+  background-color: white;
+}
+
+.line {
+  height: 1px;
+  width: 120px;
+  background-color: rgb(255, 174, 0);
+  margin-left: 90px;
+  margin-top: -10px;
+}
+
+h4 {
+  margin-left: 100px;
+  color: burlywood;
+}
+
+#check {
+  color: black;
+  font-size: 50px;
+}
+
+/* ---------------------------BOXES CODE------------------- */
+.container4 {
+  height: 750px;
+  width: 100%;
+  background-color: white;
+}
+
+.o1 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid grey;
+  margin-left: 100px;
+  float: left;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.o2 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid grey;
+  margin-left: 100px;
+  float: left;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.o3 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid grey;
+  margin-left: 100px;
+  float: left;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.o4 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid grey;
+  margin-left: 100px;
+  float: left;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.o5 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid grey;
+  margin-left: 100px;
+  float: left;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.o6 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid grey;
+  margin-left: 100px;
+  float: left;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+#go {
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  color: black;
+  margin-left: -20px;
+}
+
+.container4 img {
+  height: 100px;
+  width: 100px;
+  margin-left: 90px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.container4 p {
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+/* ----------------BACKGROUND IMAGE BOX CODE ----------------*/
+.backbox {
+  height: 290px;
+  width: 100%;
+  margin-top: -10px;
+  background-color: transparent;
+  /* background-image: url("backboximg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#v1 {
+  margin-left: 570px;
+  margin-bottom: -20px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+#vv1 {
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+#buttonv {
+  width: 200px;
+  height: 40px;
+  margin-left: 565px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+}
+
+#buttonv:hover {
+  background-color: rgb(255, 174, 0);
+  border-color: rgb(255, 174, 0);
+}
+
+/* --------------------CONTAINER5 CODE----------------------- */
+.container5 {
+  height: 2100px;
+  width: 100%;
+  background-color: white;
+  float: left;
+}
+
+.cont5 {
+  height: 100px;
+  width: 100%;
+  margin-top: -25px;
+  background-color: white;
+}
+
+.line {
+  height: 1px;
+  width: 120px;
+  background-color: rgb(255, 174, 0);
+  margin-left: 90px;
+  margin-top: -10px;
+}
+
+h4 {
+  margin-left: 100px;
+  color: burlywood;
+}
+
+#check {
+  color: black;
+  font-size: 50px;
+}
+
+/*-------------------- MENU CODE OF GADGITS --------------*/
+.menu {
+  height: 50px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 480px;
+}
+
+.menu ul li {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.menu ul li #aw {
+  background-color: rgb(255, 174, 0);
+  color: black;
+  font-size: 25px;
+  border-radius: 3px;
+}
+
+.menu ul li a {
+  color: black;
+  font-size: 25px;
+  border-radius: 3px;
+}
+
+.menu ul li a:hover {
+  background-color: rgb(255, 174, 0);
+}
+
+/* ---------------------Q CODES OF BOXES-------------- */
+.q1 {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-left: 100px;
+  padding: 100px;
+}
+
+.q1:hover {
+  background-color: skyblue;
+  border-top: 5px solid darkslategrey;
+  opacity: 0.9;
+}
+
+.q2 {
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding: 75px;
+}
+
+.q2:hover {
+  background-color: skyblue;
+  border-top: 5px solid darkslategrey;
+  opacity: 0.9;
+}
+
+.q3 {
+  height: 230px;
+  width: 300px;
+  float: left;
+  padding: 50px;
+}
+
+.q3:hover {
+  background-color: skyblue;
+  border-top: 5px solid darkslategrey;
+  opacity: 0.9;
+}
+
+.q4 {
+  height: 180px;
+  width: 250px;
+  float: left;
+  padding: 75px;
+}
+
+.q4:hover {
+  background-color: skyblue;
+  border-right: 5px solid darkslategrey;
+  opacity: 0.9;
+}
+
+.q5 {
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding: 75px;
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 450px;
+}
+
+.q5:hover {
+  background-color: skyblue;
+  border-bottom: 5px solid darkslategrey;
+  opacity: 0.9;
+}
+
+.q6 {
+  height: 550px;
+  width: 200px;
+  float: left;
+  padding: 100px;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 100px;
+}
+
+.q6:hover {
+  background-color: skyblue;
+  border-bottom: 5px solid darkslategrey;
+  opacity: 0.9;
+}
+
+.q7 {
+  height: 250px;
+  width: 250px;
+  float: left;
+  padding: 50px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 500px;
+}
+
+.q7:hover {
+  background-color: skyblue;
+  border: 5px solid darkslategrey;
+  opacity: 0.9;
+}
+
+.q8 {
+  height: 350px;
+  width: 300px;
+  float: left;
+  padding: 75px;
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 800px;
+}
+
+.q8:hover {
+  background-color: skyblue;
+  border-bottom: 5px solid darkslategrey;
+  opacity: 0.9;
+}
+
+.container5 img {
+  height: 250px;
+  width: 250px;
+  margin-left: -10px;
+}
+
+#lamp {
+  height: 500px;
+  width: 500px;
+  margin-left: -170px;
+}
+
+#chair {
+  height: 350px;
+  width: 350px;
+  margin-left: -80px;
+}
+
+#gog {
+  height: 250px;
+  width: 250px;
+  margin-left: -50px;
+}
+
+.child1 {
+  height: 500px;
+  width: 450px;
+  position: absolute;
+  margin-top: 1300px;
+  margin-left: 800px;
+}
+
+.child1 h1 {
+  color: black;
+}
+
+.child1 h3 {
+  color: black;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.child1 img {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  margin-left: -700px;
+  margin-top: -465px;
+  border: 2px solid black;
+}
+
+/* CONTAINER-6 */
+.conatiner6 {
+  height: 290px;
+  width: 100%;
+  position: relative;
+  margin-top: 2100px;
+}
+
+#aayan {
+  font-family: "monospace";
+  font-size: 40px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 575px;
+}
+
+.conatiner6 img {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin-left: 630px;
+  border-radius: 50px;
+  border: 2px solid white;
+  margin-top: 25px;
+}
+
+#vv2 {
+  margin-top: 200px;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+/* CONTAINER7 */
+.container7 {
+  height: 600px;
+  width: 100%;
+  background-color: white;
+}
+
+#w1 {
+  height: 200px;
+  width: 150px;
+  display: flex;
+  float: left;
+  padding-left: 150px;
+  border-right: 6px solid grey;
+  margin-top: 100px;
+}
+
+#w1:hover {
+  border-right-color: rgb(255, 174, 0);
+}
+
+#x1 {
+  color: black;
+  padding: 10px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 300px;
+}
+
+#x2 {
+  color: black;
+  padding: 10px;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 300px;
+}
+
+#x3 {
+  color: black;
+  padding: 10px;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 300px;
+}
+
+#x4 {
+  color: black;
+  padding: 10px;
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: 300px;
+}
+
+.map {
+  height: 780px;
+  width: 100%;
+  background-color: white;
+}
+
+#gg {
+  color: black;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 420px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#team {
+  color: black;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 390px;
+  font-size: 17px;
+  color: rgb(255, 174, 0);
+}
+
+iframe {
+  height: 300px;
+  width: 85%;
+  margin-left: 100px;
+}
+
+/* INPUT BOXES CODE */
+#input1 {
+  position: absolute;
+  margin-left: -650px;
+  margin-top: 350px;
+  box-shadow: none;
+  font-size: 20px;
+  border-radius: 4px;
+  height: 35px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+#input2 {
+  position: absolute;
+  margin-left: -305px;
+  margin-top: 350px;
+  box-shadow: none;
+  font-size: 20px;
+  border-radius: 4px;
+  height: 35px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+#input3 {
+  position: absolute;
+  margin-left: -650px;
+  margin-top: 420px;
+  box-shadow: none;
+  font-size: 20px;
+  border-radius: 4px;
+  height: 50px;
+  width: 645px;
+  border: 1px solid black;
+}
+
+#input4 {
+  position: absolute;
+  margin-left: -650px;
+  margin-top: 510px;
+  box-shadow: none;
+  font-size: 20px;
+  border-radius: 4px;
+  height: 150px;
+  width: 645px;
+  border: 1px solid black;
+}
+
+#input5 {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: 700px;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(255, 174, 0);
+  border: none;
+  border-radius: 4px;
+}
+
+#input5:hover {
+  cursor: pointer;
+}
+
+/* CONTAINER8 */
+.container8 {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(17, 16, 16);
+  font-family: "serif";
+}
+
+.container8 li {
+  color: white;
+  padding: 27px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.container8 li {
+  color: white;
+  padding: 27px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.container8 ul {
+  margin-left: 200px;
+  margin-top: -305px;
+  position: absolute;
+}
+
+.container9 {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+#z1 {
+  position: absolute;
+  margin-left: 550px;
+  color: white;
+  font-family: "serif";
+}
+
+#z2 {
+  position: absolute;
+  margin-left: 585px;
+  margin-top: 50px;
+  color: white;
+  font-family: "Helvetica";
+}
+
+i {
+  color: rgb(255, 174, 0);
+}
+
+i:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.container9 img {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  margin-top: 15px;
+  margin-left: 1308px;
+}
+
+#gp {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -320px;
+  font-size: 200px;
+  font-family: "Segoe UI", "Tahoma";
+}
+
+#add {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: -1050px;
+  margin-top: 420px;
+}
